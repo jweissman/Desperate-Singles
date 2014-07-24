@@ -1,6 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
 $body-bg: #ecf0f1;
-$navbar-inverse-bg: #bdc3c7;
+$font-family-sans-serif: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 75px;
+$navbar-inverse-bg: #CEADDB;
 $navbar-inverse-link-color: black;
+$navbar-inverse-link-hover-color: #2ecc71;
 $brand-primary: #f39c12;
 
 @import 'bootstrap';

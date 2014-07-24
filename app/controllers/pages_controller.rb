@@ -4,4 +4,17 @@ class PagesController < ApplicationController
   
   def about
   end
+
+  def love
+  end
+  
+  def thoughts
+  end
+
+  def prayers
+  end
+
+  def contact
+  end 
+  	
 end
