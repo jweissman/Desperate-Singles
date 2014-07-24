@@ -31,6 +31,9 @@ gem 'oauth', '~> 0.4.7'
 
 gem 'bootstrap-sass'
 
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 3.2.4'
+
 group :development, :test do
 	gem 'sqlite3'
 end
