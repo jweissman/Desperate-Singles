@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 1.2'
 
 # Make site look better more quickly
 
-# For implementing both OAuth clients and servers in Ruby applications
+# Implements both OAuth clients and servers in Ruby applications
 gem 'oauth', '~> 0.4.7'
 
 gem 'bootstrap-sass'
