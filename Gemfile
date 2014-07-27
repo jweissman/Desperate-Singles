@@ -7,6 +7,9 @@ gem 'rails', '4.0.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 
+# A friendly wrapper for launchctl for easily starting and stopping Postgres server
+gem 'lunchy', '~> 0.8.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -34,12 +37,14 @@ gem 'bootstrap-sass'
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 3.2.4'
 
+# Database - compatible with Heroku
+gem 'pg', '~> 0.17.1'
+
 group :development, :test do
-	gem 'sqlite3'
+	gem 'rspec-rails', '3.0.2'
 end
 
 group :production do
-	gem 'pg'
 	gem 'rails_12factor'
 end
 
