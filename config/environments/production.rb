@@ -1,3 +1,4 @@
+
 Despsingles::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -77,4 +78,8 @@ Despsingles::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+# Required for Heroku
+# Set to actual host 
+  config.action_mailer.default_url_options = { :host => 'desperatesingles.herokuapp.com/' }
 end
