@@ -1,89 +1,170 @@
 <!DOCTYPE html>
-<br>
-<br>
-<br>
-<title>DESPERATESINGL.ES</title>
-<header>DESPERATE<b>singl.es</b></header>
-<head> <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	
+<head> 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  	   	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+
 <style>
+
 header{
-	max-width: 600px;
-	text-align: left;
+	max-width::100%;
+	text-align: center;
+	margin-top: 50px;
 	font-size: 80px;
 	font-family:'Oswald', sans-serif;
-	color: white;
+	color: rgba(255, 255, 255, 0.75);
 	position: relative;
-	left: 50px;
-	top: 30px;
-		;
 	}	
-	
-	Body{
-		font-family: helvetica;
-		background-image:url("http://halfmanhalfgreek.files.wordpress.com/2010/07/sad-woman.jpg")
-		
+
+h4{
+  max-width::100%;
+  text-align: left;
+  padding-left: 20px;
+  float: left;
+  font-size: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  margin-top: 65px;
+  margin-left: -345px;
+}
+
+dslogo{
+    font-family:'Oswald', sans-serif;
+    color: white;
+    font-size: 45px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+
 
 }
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    font-family:'Oswald', sans-serif;
+    color: white;
+}
+
+Body{
+	margin: 0 0 100px; /* bottom = footer height */
+	background:url("http://i.imgur.com/he4QxLD.jpg") no-repeat;
+	background-size: 100%;
+	align: center;
+}
+
 h2{
 	font-size: 13px;
-	text-align: left;
-	padding-left: 50px
+	text-align: center;
+	margin-left: -145px;
+	font-family: 'Josefin Sans', sans-serif;
+
 }
-p {
-    font-family: "helvetica";
-    background-image:url("http://halfmanhalfgreek.files.wordpress.com/2010/07/sad-woman.jpg")
+
+h3{
+	font-size: 13px;
+	text-align: center;
+	margin-left: 180px;
+	margin-top: -24px;
+	font-family: 'Josefin Sans', sans-serif;
+
 }
+
  button {
- 	height: 20px
+ 	height: 10px
  }
+
  input{
   display: inline-block;
+  background-color: rgba(255, 255, 255, 0.25);
   position: relative;
-  left: 225px;
   font-family:'Oswald', sans-serif;
   text-align: center;
   font-size: 24px;
   padding: 10px;
-}
- }
-    input { border: 0;
- 	padding: 10px;
- 	font-size: 18px;
-	position: relative;
- 	left: 225px;
-	font-family:'Oswald', sans-serif;
- 	text-align: center;
-	font-size: 24px;
-	padding: 10px;
     }
     input[type="submit"]   {
-            background: red;
+            background: rgba(255, 0, 0, 0.25);
             color: white;
             font-family: 'Oswald', sans-serif;
             position: relative;
-            margin-left: 60px;
             border-radius: 10px;
 
 }
-	</style>
+
+input,select,textarea { /* These three elements round up all the input types */
+    display: block; 
+    margin: 0 auto; 
+    position: left;
+}
+
+nav {
+	float: right;
+	padding: 20px;	
+	font-family:'Oswald', sans-serif;
+
+}
+a:link    {color:white;}
+a:visited {color:white;}
+a:hover   {color:red;}
+a:active  {color:white;}
+
+a.ex1:hover,a.ex1:active {color:red;}
+a.ex2:hover,a.ex2:active {font-size:150%;}
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px
+}
+</style>
 
 </head>
 
+<title>DESPERATESINGL.ES</title>
+<header>DESPERATE<b>singl.es</b></header>
 <body>
 	<br>
 	<br>
 	<br>
+	<input type="login" placeholder="USERNAME">
 	<br>
-	<input type="login" placeholder="USERNAME"> size="100">
 	<br>
-	<br>
-	<input type="password" placeholder="PASSWORD"> size="100">
-<br>
-<br>
-	<input type="submit" placeholder="SIGN IN">
+	<input type="password" placeholder="PASSWORD">
+	<h2>Forgot Login?</h2> <h3>Sign Up</h3>
 
-
-
+<input type="submit" placeholder="SIGN IN">  </div>
 </body>
+
+<footer><nav>
+
+<a href="#" id="menu-icon"></a>
+
+<ul>
+
+<li><a href="http://www.desperatesingl.es/home" style="text-decoration: none" class="current">Home</a></li>
+<li><a href="http://www.desperatesingl.es/about" style="text-decoration: none">About</a></li>
+<li><a href="http://www.desperatesingl.es/love" style="text-decoration: none">Love</a></li>
+<li><a href="http://www.desperatesingl.es/thoughts" style="text-decoration: none">Thoughts</a></li>
+<li><a href="http://www.desperatesingl.es/contact" style="text-decoration: none">Contact</a></li>
+
+</ul>
+</nav><dslogo>DESPERATEsingl.es</dslogo><h4>Romantic relief for the broken-hearted.</h4></footer>
+
+
 </html>
