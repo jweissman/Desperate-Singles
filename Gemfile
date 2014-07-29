@@ -34,15 +34,14 @@ gem 'bootstrap-sass'
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 3.2.4'
 
-# Database - compatible with Heroku
-gem 'pg', '~> 0.17.1'
 
 group :development, :test do
 	gem 'rspec-rails', '3.0.2'
-end
+	gem 'sqlite3', '~> 1.3.9'
 
 group :production do
 	gem 'rails_12factor'
+	gem 'pg', '~> 0.17.1'
 end
 
 group :doc do
@@ -61,3 +60,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+end
